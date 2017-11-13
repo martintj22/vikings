@@ -18,7 +18,7 @@ namespace ConsoleApp22
             /// Standart, indstillinger for spillet. </summary>
             int guld = 500;
 			int army = 300;
-
+           
 			lande england = new lande();
 			lande frankrig = new lande();
 			lande spainien = new lande();
@@ -32,13 +32,20 @@ namespace ConsoleApp22
             al.Add("Frankrig");
       
 
+            /// <summary>
+            /// Antal mænd de forskellige lande har.
+            /// 
+            /// </summary>
 
             String war = "England, Frankrig";
-
 			england.men = 200;
 			frankrig.men = 800;
 			spainien.men = 1200;
 
+
+            // <summary>
+            // En lille fortælling
+            // </summary>
 
 			Console.WriteLine("Vi er taget 1100.år, Tilbage i tiden");
 			Thread.Sleep(500);
@@ -94,7 +101,9 @@ namespace ConsoleApp22
 
                 }
 
-
+               // <summary>
+               // Shop, hvor esktra mænd kan købes
+               // </summary>
                 if (menu == "shop")
                 {
                     Console.WriteLine("Du kan købe:");
@@ -155,6 +164,8 @@ namespace ConsoleApp22
                             Console.WriteLine("Din vender tilbage med 1200 esktra guld");
                         }
 
+                        // <summary>
+                        //</summary>
 
                         else if (army < frankrig.men )
                         {
