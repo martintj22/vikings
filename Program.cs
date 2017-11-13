@@ -14,7 +14,9 @@ namespace ConsoleApp22
 		static void Main(string[] args)
 		{
 
-			int guld = 500;
+            //// <summary>
+            /// Standart, indstillinger for spillet. </summary>
+            int guld = 500;
 			int army = 300;
 
 			lande england = new lande();
