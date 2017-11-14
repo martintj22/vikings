@@ -11,11 +11,14 @@ namespace ConsoleApp22
 {
 	class Program
 	{
+        /// <summary>
+        /// Spil starter her
+        /// </summary>
+        /// <param name="args"></param>
 		static void Main(string[] args)
 		{
 
-            //// <summary>
-            /// Standart, indstillinger for spillet. </summary>
+            
             int guld = 500;
 			int army = 300;
            
@@ -42,10 +45,6 @@ namespace ConsoleApp22
 			frankrig.men = 800;
 			spainien.men = 1200;
 
-
-            // <summary>
-            // En lille fortælling
-            // </summary>
 
 			Console.WriteLine("Vi er taget 1100.år, Tilbage i tiden");
 			Thread.Sleep(500);
@@ -101,9 +100,7 @@ namespace ConsoleApp22
 
                 }
 
-               // <summary>
-               // Shop, hvor esktra mænd kan købes
-               // </summary>
+         
                 if (menu == "shop")
                 {
                     Console.WriteLine("Du kan købe:");
@@ -164,8 +161,7 @@ namespace ConsoleApp22
                             Console.WriteLine("Din vender tilbage med 1200 esktra guld");
                         }
 
-                        // <summary>
-                        //</summary>
+                       
 
                         else if (army < frankrig.men )
                         {
@@ -188,6 +184,9 @@ namespace ConsoleApp22
 	        Console.ReadLine();
         }
     }
+    /// <summary>
+    /// Holder på lande
+    /// </summary>
 	class lande
 	{
 		public int men;

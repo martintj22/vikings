@@ -1,5 +1,3 @@
 # vikings
-For sjov vikinge spil
- 
-
+For sjovt vikinge spil
 Et c# spil, som stadig er under udvikling.
